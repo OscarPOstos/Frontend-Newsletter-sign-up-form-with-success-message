@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <div id="container">
+    <div id="formContainer">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      <form id="form">
+        <div id="labels"><label for="email" id="label">Email address</label>
+        <p id="errorEmailMessage">Valid email required</p></div>
+        <input type="email" name="email" id="emailInput" placeholder="email@company.com" required>
+      </form>
+      <button id="button">Subscribe to monthly newsletter</button>
+    </div>
+    <figure>
+      <img id="image" src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up">
+    </figure>
+  </div>
+  <div id="successContainer">
+    <figure>
+      <img id="image" src="assets/images/icon-success.svg" alt="illustration-sign-up" width="50px">
+    </figure>
+    <h1>Thanks for suscribing!</h1>
+    <p id="subscriptionMessage">A confimation email has been sent to <b>example@company.com</b>.
+      Please open it and click the button inside to confirm your subscription</p>
+    <button id="dismissButton">Dismiss message</button>
+  </div>
+</body>
+<script type="module" src="script/script.js"></script>
+</html>
