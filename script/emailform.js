@@ -45,9 +45,9 @@ export class EmailForm {
         } else {
             document.getElementById("container").style.display = "none";
             document.getElementById("successContainer").style.display = "flex";
-            document.getElementById("subscriptionMessage").innerHTML = "A confimation email has been sent to <b>"
+            document.getElementById("subscriptionMessage").innerHTML = "A confimation email has been sent to <span>"
             + this.input.value 
-            + "</b>.Please open it and click the button inside to confirm your subscription";
+            + "</span>.Please open it and click the button inside to confirm your subscription";
         }
     }
 }

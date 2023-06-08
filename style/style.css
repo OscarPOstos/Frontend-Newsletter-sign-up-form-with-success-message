@@ -154,6 +154,7 @@ span {
         flex-direction: column-reverse;
         border-radius: 0px;
         padding: 0px;
+        min-height: 100vh;
     }
 
     #successContainer {
@@ -164,9 +165,10 @@ span {
     #formContainer {
         max-width: 100%;
         padding: 25px;
+        flex-grow: 1;
     }
 
     #container figure img {
-        width: 96vw;
+        width: 100vw;
     }
 }
